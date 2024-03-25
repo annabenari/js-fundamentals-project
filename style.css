@@ -1,0 +1,130 @@
+
+body {
+    background-color: #ffd9e0; 
+    font-family: 'Comic Sans MS', cursive; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ff69b4;
+}
+
+/* Form styles */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    color: #ff69b4; 
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ff69b4; 
+    width: 70%;
+    margin-top: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ff69b4; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff1493; 
+}
+
+/* Lists container styles */
+.lists-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* List styles */
+.shoppingList,
+.basketList {
+    border: 3px solid #ff69b4; 
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.shoppingList {
+    background-color: #ffecf2; /* Light pink background */
+}
+
+.basketList {
+    background-color: #f5e1f2; 
+}
+
+/* List item styles */
+li {
+    margin-bottom: 10px;
+    list-style: none;
+    font-size: 18px;
+    color: #ff69b4; 
+}
+
+/* Button styles */
+.moveButton {
+    background-color: #ff69b4; 
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Comic Sans MS', cursive; 
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.moveButton:hover {
+    background-color: #ff1493; 
+}
+
+/* Button styles */
+#submitBtn {
+    background-color: #ff69b4; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px; 
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submitBtn:hover {
+    background-color: #ff1493; 
+}
+
+.moveButton {
+    background-color: #ff1493; 
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.moveButton:hover {
+    background-color: #ff69b4; 
+}
