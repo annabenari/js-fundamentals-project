@@ -23,10 +23,10 @@ document
       // Append the button to the list item
       li.appendChild(moveButton);
 
-      // Append the new item to the shopping list
+      // Appends the new item to the shopping list
       document.querySelector(".shoppingList").appendChild(li);
 
-      // Clear the input field
+      // this clears the input field after you submit it
       document.getElementById("item").value = "";
     }
   });
