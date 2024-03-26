@@ -9,21 +9,35 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>My Super Cute Shopping List</h1>
-        <form id="shoppingForm">
-            <label for="item">Add Item:</label><br>
-            <input type="text" id="item" name="item" placeholder="Enter item"><br><br>
-            <button type="submit" id="submitBtn">✓</button>
-        </form>
-        <div class="lists-container">
-            <ul class="shoppingList">
+    <div id="clipboard-wrapper">
+        <section id="clipboard">
+            <div id="clipboard-grip">
+            </div>
+            <div id="clipboard-lever">
+            </div>
+            <div class="container">
+                <h1>My Super Cute Shopping List</h1>
+                <form id="shoppingForm">
+                    <label for="item">Add Item:</label><br>
+                    <input type="text" id="item" name="item" placeholder="Enter item"><br><br><label
+                        for="quantity">Quantity:</label><br>
 
-            </ul>
-            <ul class="basketList">
+                    <input type="number" id="quantity" name="quantity" value="1" min="1"><br><br>
+                    <button type="submit" id="submitBtn">✓</button>
+                </form>
+                <div class="lists-container">
+                    <h2>Shopping List</h2>
+                    <ul class="shoppingList">
 
-            </ul>
-        </div>
+                    </ul>
+                    <h2>Checked List</h2>
+                    <ul class="basketList">
+
+                    </ul>
+                    <p id="totalItems"></p>
+                </div>
+            </div>
+    </div>
     </div>
     <script src="script.js"></script>
 </body>
